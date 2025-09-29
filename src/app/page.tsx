@@ -78,12 +78,10 @@ export default function Home() {
       </div>
       <div id="footer" data-section="footer" className="scroll-mt-24">
         <RevealFooter
-          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/design-a-simple-high-contrast-logo-for-m-1759142440705-e553bde8.jpg"
-          logoAlt="MemePulse Logo"
           columns={[
             { title: "Community", items: [ { label: "Discord", onClick: () => {} }, { label: "Twitter", onClick: () => {} }, { label: "Telegram", onClick: () => {} } ] },
             { title: "Useful Links", items: [ { label: "White Paper", onClick: () => {} }, { label: "How to Buy", onClick: () => {} }, { label: "FAQs", onClick: () => {} } ] },
-            { title: "Support", items: [ { label: "Contact Us", onClick: () => {} }, { label: "Privacy Policy", onClick: () => {} } ] },
+            { title: "Support", items: [ { label: "Contact Us", onClick: () => {} }, { label: "Privacy Policy", onClick: () => {} } ] }
           ]}
           copyrightText="© 2023 MemePulse. All rights reserved."
         />
