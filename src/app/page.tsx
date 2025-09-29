@@ -20,7 +20,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutSplitBottom
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/design-a-simple-high-contrast-logo-for-m-1759142440705-e553bde8.jpg"
-          logoAlt="MemePulse Logo"
           buttonText="Buy MemePulse"
           navItems={[
             { name: "Hero", id: "hero" },
