@@ -31,12 +31,12 @@ export default function Home() {
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
         <SimpleHero
-          title="Discover MemePulse - Fun Awaits!"
-          description="Join the memecoin revolution and embrace community engagement!"
+          title="Join the Memecoin Revolution!"
+          description="Become part of a lively community and enjoy the benefits!"
           backgroundImage="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/draw-a-cartoon-desert-landscape-in-16-9--1759142432550-6b29b95e.jpg"
           backgroundImageAlt="Desert landscape background"
           primaryButtonText="Buy Now!"
-          secondaryButtonText="Learn More"
+          secondaryButtonText=""
         />
       </div>
       <div id="about" data-section="about" className="scroll-mt-24">
@@ -54,10 +54,9 @@ export default function Home() {
           items={[
             { title: "What is MemePulse?", content: "MemePulse is a fun memecoin designed for community engagement and excitement!" },
             { title: "How do I buy MemePulse?", content: "You can buy MemePulse through various exchanges directly on our site!" },
-            { title: "Is there a roadmap?", content: "Yes, we have an outlined roadmap for future developments and expansions." },
-            { title: "What about security measures?", content: "Our smart contracts are fully audited for security and performance." },
-            { title: "Which wallets are supported?", content: "You can use popular wallets like MetaMask, Trust Wallet, etc.!" },
-            { title: "Are there any risks?", content: "As with all cryptos, invest responsibly and do your research!" },
+            { title: "What about security measures?", content: "Our smart contracts are fully audited for security by reputable firms." },
+            { title: "Which wallets are supported?", content: "You can use popular wallets like MetaMask, Trust Wallet, and others!" },
+            { title: "Are there any risks?", content: "Investing in cryptocurrencies carries risks; research thoroughly before investing." }
           ]}
         />
       </div>
@@ -73,10 +72,10 @@ export default function Home() {
       <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
         <ExpandingGridTokenomics
           title="Transparency in Tokenomics"
-          description="Here are the key stats behind MemePulse:"
+          description="Key stats that power MemePulse:"
           cardItems={[
             { id: 1, title: "Total Supply", description: "1,000,000,000 MemePulse Tokens" },
-            { id: 2, title: "Community Fund", description: "40% allocated for community growth" },
+            { id: 2, title: "Community Fund", description: "40% allocated for growth" },
             { id: 3, title: "Liquidity", description: "20% reserved for liquidity" },
           ]}
         />
