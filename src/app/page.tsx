@@ -7,13 +7,11 @@ import CentralFAQ from '@/components/sections/layouts/faq/CentralFAQ';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import ExpandingGridTokenomics from '@/components/sections/layouts/tokenomics/ExpandingGridTokenomics';
 import RevealFooter from '@/components/sections/layouts/footer/RevealFooter';
-
 const theme: SiteTheme = {
   styleVariant: "funAndTrendy",
   colorTemplate: 1,
   textAnimation: "slide",
 };
-
 export default function Home() {
   return (
     <SiteThemeProvider theme={theme}>
@@ -33,18 +31,22 @@ export default function Home() {
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
         <SimpleHero
-          title="Welcome to MemePulse"
-          description="The playful memecoin of your dreams!"
+          title="Discover MemePulse - Fun Awaits!"
+          description="Join the memecoin revolution and embrace community engagement!"
           backgroundImage="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/draw-a-cartoon-desert-landscape-in-16-9--1759142432550-6b29b95e.jpg"
           backgroundImageAlt="Desert landscape background"
-          primaryButtonText="Buy Now"
+          primaryButtonText="Buy Now!"
           secondaryButtonText="Learn More"
         />
       </div>
       <div id="about" data-section="about" className="scroll-mt-24">
         <CtaAbout
           title="Join the Movement"
-          descriptions={["MemePulse is more than just a token; it's a community!", "Get involved and start contributing to our memecoin journey.", "Follow us on social media to stay updated!"]}
+          descriptions={[
+            "MemePulse is more than just a token; it's a community!",
+            "Get involved and start contributing to our memecoin journey.",
+            "Follow us on social media to stay updated!"
+          ]}
         />
       </div>
       <div id="faq" data-section="faq" className="scroll-mt-24">
@@ -53,6 +55,9 @@ export default function Home() {
             { title: "What is MemePulse?", content: "MemePulse is a fun memecoin designed for community engagement and excitement!" },
             { title: "How do I buy MemePulse?", content: "You can buy MemePulse through various exchanges directly on our site!" },
             { title: "Is there a roadmap?", content: "Yes, we have an outlined roadmap for future developments and expansions." },
+            { title: "What about security measures?", content: "Our smart contracts are fully audited for security and performance." },
+            { title: "Which wallets are supported?", content: "You can use popular wallets like MetaMask, Trust Wallet, etc.!" },
+            { title: "Are there any risks?", content: "As with all cryptos, invest responsibly and do your research!" },
           ]}
         />
       </div>
@@ -67,7 +72,7 @@ export default function Home() {
       </div>
       <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
         <ExpandingGridTokenomics
-          title="Tokenomics"
+          title="Transparency in Tokenomics"
           description="Here are the key stats behind MemePulse:"
           cardItems={[
             { id: 1, title: "Total Supply", description: "1,000,000,000 MemePulse Tokens" },

@@ -1,19 +1,16 @@
 import type { Metadata } from "next";
 import { Inter_Tight, Playfair_Display } from "next/font/google";
 import "./globals.css";
-
 const interTight = Inter_Tight({
   variable: "--font-inter-tight",
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
-
 const playfairDisplay = Playfair_Display({
   variable: "--font-playfair",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800", "900"],
 });
-
 export const metadata: Metadata = {
   title: "MemePulse Memecoin Landing Page — Fun, Community Crypto",
   description: "MemePulse is a playful memecoin landing page with clear buy steps, transparent tokenomics, and a community-first vibe. Quick actions, friendly visuals.",
@@ -37,7 +34,6 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
