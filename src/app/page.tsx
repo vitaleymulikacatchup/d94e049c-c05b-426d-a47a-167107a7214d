@@ -31,7 +31,7 @@ export default function Home() {
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
         <SimpleHero
-          title="Join the Memecoin Revolution!"
+          title="Yo"
           description="Become part of a lively community and enjoy the benefits!"
           backgroundImage="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/draw-a-cartoon-desert-landscape-in-16-9--1759142432550-6b29b95e.jpg"
           backgroundImageAlt="Desert landscape background"
